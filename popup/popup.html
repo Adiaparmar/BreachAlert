@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Leak Checker</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Password Leak Checker</h1>
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-label">Passwords Checked:</span>
+        <span id="checked-count" class="stat-value">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Breaches Found:</span>
+        <span id="breach-count" class="stat-value">0</span>
+      </div>
+    </div>
+    <div id="status" class="warning" style="display: none"></div>
+    <div class="info-box">
+      <p>
+        This extension checks if your passwords have been exposed in known data
+        breaches. When you enter a password on any website, it will be securely
+        hashed and checked against the HaveIBeenPwned database.
+      </p>
+    </div>
+    <button id="learn-more">Learn More About Password Security</button>
+    <button id="reset-stats">Reset Statistics</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

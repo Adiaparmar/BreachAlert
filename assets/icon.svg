@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#4CAF50"/>
+  
+  <!-- Lock body -->
+  <rect x="34" y="58" width="60" height="45" rx="6" fill="#ffffff"/>
+  
+  <!-- Lock shackle -->
+  <path d="M44 58V42c0-11 20-11 20-11s20 0 20 11v16" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Checkmark -->
+  <path d="M45 78l12 12 26-26" 
+        fill="none" 
+        stroke="#4CAF50" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
